@@ -4,7 +4,7 @@
   "description": "A better if-else operator to rxjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,8 @@
     "else"
   ],
   "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
   }
 }
