@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-better-if",
+  "name": "rxjs-if-then",
   "version": "0.0.1",
   "description": "A better if-else operator to rxjs",
   "main": "index.js",
