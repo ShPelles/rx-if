@@ -8,5 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "keywords": ["rxjs", "operator", "if", "else"]
+  "keywords": [
+    "rxjs",
+    "operator",
+    "if",
+    "else"
+  ],
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
