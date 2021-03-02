@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-if",
+  "name": "rx-if",
   "version": "0.0.1",
   "description": "A better if-else operator to rxjs",
   "main": "build/rx-if.js",

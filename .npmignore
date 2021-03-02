@@ -10,4 +10,4 @@ jest.config.json
 tsconfig.json
 
 *.test.js
-*.test.d.js
+*.test.d.ts
