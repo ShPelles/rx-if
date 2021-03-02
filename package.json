@@ -9,7 +9,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint . --ext .js,.ts"
+    "lint": "npm run lint:ts && npm run lint:md",
+    "lint:ts": "eslint . --ext .js,.ts",
+    "lint:md": "markdownlint **/*.md -i node_modules"
   },
   "author": "Shalom Pelles <shalom.peles+rxif@gmail.com>",
   "license": "MIT",
@@ -24,6 +26,7 @@
     "@typescript-eslint/parser": "^4.14.2",
     "eslint": "^7.19.0",
     "jest": "^26.6.3",
+    "markdownlint-cli": "^0.26.0",
     "rxjs": "^6.6.3",
     "rxjs-marbles": "^6.0.1",
     "ts-jest": "^26.4.4",
