@@ -1,15 +1,18 @@
 {
   "name": "rx-if",
-  "version": "0.0.1",
-  "description": "A better if-else operator to rxjs",
+  "version": "0.0.2",
+  "description": "rxjs if-then-else operator",
   "main": "build/rx-if.js",
+  "homepage": "https://github.com/ShPelles/rx-if#readme",
+  "bugs": "https://github.com/ShPelles/rx-if/issues",
+  "repository": "github:ShPelles/rx-if",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shalom Pelles <shalom.peles+rxif@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "rxjs",
     "operator",
