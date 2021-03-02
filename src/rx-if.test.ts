@@ -9,7 +9,7 @@ it('should rxIf.then works', marbles(m => {
   const expected = m.cold(' --w-x-y-z-|', { w: 2, x: 2, y: 6, z: 4 });
 
   const destination = source.pipe(
-    rxIf<number>(v => v % 2 !== 0).then(
+    rxIf<number>(v => v % 2 !== 0).pipe(
       map(v => v * 2),
     ),
   );
@@ -24,7 +24,7 @@ it('should rxIf.then.else works', marbles(m => {
   const expected = m.cold(' --w-x-y-z-|', { w: 2, x: 1, y: 6, z: 2 });
 
   const destination = source.pipe(
-    rxIf<number>(v => v % 2 !== 0).then(
+    rxIf<number>(v => v % 2 !== 0).pipe(
       map(v => v * 2),
     ).else(
       map(v => v / 2),
