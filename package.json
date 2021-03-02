@@ -2,8 +2,9 @@
   "name": "rxjs-if",
   "version": "0.0.1",
   "description": "A better if-else operator to rxjs",
-  "main": "index.js",
+  "main": "build/rx-if.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.ts"
   },
