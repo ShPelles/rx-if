@@ -1,0 +1,13 @@
+.github
+.vscode
+coverage
+src
+
+.editorconfig
+.eslintignore
+.eslintrc.json
+jest.config.json
+tsconfig.json
+
+*.test.js
+*.test.d.js
